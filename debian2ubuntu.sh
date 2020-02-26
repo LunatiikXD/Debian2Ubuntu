@@ -10,6 +10,7 @@ sudo apt update
 sudo apt-get dist-upgrade
 sudo apt --fix-broken install
 sudo apt-get purge ghostscript libgs9 libgs9-common python3-cupshelpers
+sudo systemctl restart networking.service
 sudo apt-get install ubuntu-desktop
 wget -N https://raw.githubusercontent.com/CollabVM-Retards/dotfiles/master/.bashrc
 exec bash
