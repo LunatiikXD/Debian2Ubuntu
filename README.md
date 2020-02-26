@@ -6,3 +6,5 @@
 
 
 #  How to install
+
+It's really easy!
