@@ -6,6 +6,7 @@ echo "you can grab a cup of coffee and wait."
 echo -e "\e[1m================================================="
 sudo apt-get install curl -y
 curl https://raw.githubusercontent.com/LunatiikXD/Debian2Ubuntu/master/ubuntusources.txt | sudo tee /etc/apt/sources.list
+curl https://raw.githubusercontent.com/LunatiikXD/Debian2Ubuntu/master/dns.txt | sudo tee /etc/resolv.conf
 sudo apt update
 sudo apt-get dist-upgrade -y
 sudo apt --fix-broken install -y
